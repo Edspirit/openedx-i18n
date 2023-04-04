@@ -1,6 +1,6 @@
 # #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 # edX community translations have been downloaded from Persian (Iran) (http://www.transifex.com/open-edx/edx-platform/language/fa_IR/).
-# Copyright (C) 2022 EdX
+# Copyright (C) 2023 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -21,7 +21,7 @@
 # Somaye Joolaee, 2022
 # #-#-#-#-#  djangojs-studio.po (edx-platform)  #-#-#-#-#
 # edX community translations have been downloaded from Persian (Iran) (http://www.transifex.com/open-edx/edx-platform/language/fa_IR/).
-# Copyright (C) 2022 EdX
+# Copyright (C) 2023 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -50,16 +50,16 @@
 # soroosh khoram <soroosh.strife@gmail.com>, 2014
 # #-#-#-#-#  djangojs-account-settings-view.po (0.1a)  #-#-#-#-#
 # edX community translations have been downloaded from Persian (Iran) (https://www.transifex.com/open-edx/teams/6205/fa_IR/).
-# Copyright (C) 2022 EdX
+# Copyright (C) 2023 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2022.
+# EdX Team <info@edx.org>, 2023.
 #
 # Translators:
 # Somaye Joolaee, 2022
 #
 # #-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
 # edX community translations have been downloaded from Persian (Iran) (http://www.transifex.com/open-edx/edx-platform/language/fa_IR/)
-# Copyright (C) 2022 edX
+# Copyright (C) 2023 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -74,7 +74,7 @@
 # Somaye Joolaee, 2022
 # #-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
 # edX community translations have been downloaded from Persian (Iran) (http://www.transifex.com/open-edx/edx-platform/language/fa_IR/)
-# Copyright (C) 2022 edX
+# Copyright (C) 2023 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -86,7 +86,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2022-09-18 20:42+0000\n"
+"POT-Creation-Date: 2023-03-12 20:42+0000\n"
 "PO-Revision-Date: 2014-06-11 15:18+0000\n"
 "Last-Translator: Somaye Joolaee, 2022\n"
 "Language-Team: Persian (Iran) (http://www.transifex.com/open-edx/edx-platform/language/fa_IR/)\n"
@@ -2281,7 +2281,7 @@ msgstr "خطا در زمان ساخت شناسه‌های ناشناس. لطفا
 #: lms/static/js/instructor_dashboard/data_download.js
 #: lms/static/js/instructor_dashboard/data_download_2.js
 msgid "Error generating proctored exam results. Please try again."
-msgstr "خطایی در تولید نتایج آزمون آزمایشی رخ داد. لطفاً دوباره تلاش کنید."
+msgstr "خطایی در تولید نتایج آزمون حفاظت‌شده رخ داد. لطفاً دوباره تلاش کنید."
 
 #: lms/static/js/instructor_dashboard/data_download.js
 #: lms/static/js/instructor_dashboard/data_download_2.js
@@ -3003,8 +3003,32 @@ msgid "loading"
 msgstr "در حال بارگیری"
 
 #: lms/static/js/learner_dashboard/RecommendationsPanel.jsx
+msgid ""
+"Browse recently launched courses and see what's new in your favorite "
+"subjects."
+msgstr ""
+"دوره‌هایی را که اخیراً راه‌اندازی شده‌اند مرور کنید و ببینید چه موارد جدیدی "
+"در موضوعات مورد علاقۀ شما وجود دارد."
+
+#: lms/static/js/learner_dashboard/RecommendationsPanel.jsx
 msgid "Explore courses"
 msgstr "کاوش دوره‌های آموزشی"
+
+#: lms/static/js/learner_dashboard/Static2UCallouts.jsx
+msgid "More opportunities for you"
+msgstr "فرصت های بیشتر برای شما"
+
+#: lms/static/js/learner_dashboard/Static2UCallouts.jsx
+msgid " to learn"
+msgstr "برای یادگیری"
+
+#: lms/static/js/learner_dashboard/Static2UCallouts.jsx
+msgid ""
+"We've added 500+ learning opportunities to create one of the world's most "
+"comprehensive free-to-degree online learning platforms."
+msgstr ""
+"ما بیش از 500 فرصت یادگیری را برای ایجاد یکی از جامع‌ترین پلتفرم‌های آموزش "
+"آنلاین رایگان تا درجه در جهان اضافه کرده‌ایم."
 
 #: lms/static/js/learner_dashboard/models/course_card_model.js
 msgid "(Self-paced) Starts {start}"
@@ -5714,7 +5738,7 @@ msgstr "غیرفعالسازی زیرنویس"
 
 #: cms/static/cms/js/main.js
 msgid "Studio's having trouble saving your work"
-msgstr "هنرکده برای ذخیره کار شما با مشکل مواجه شد."
+msgstr "استودیو برای ذخیره کار شما مشکل دارد"
 
 #: cms/static/cms/js/xblock/cms.runtime.v1.js
 msgid "OpenAssessment Save Error"
@@ -6071,8 +6095,8 @@ msgid "Please enter non-negative integer."
 msgstr "لطفا عدد صحیح غیرمنفی وارد نمایید"
 
 #: cms/static/js/models/settings/course_grader.js
-msgid "Cannot drop more <%- types %> assignments than are assigned."
-msgstr "امکان رهاسازی <%- types %> تکلیف، بیش از آنچه اختصاص داده شده نیست."
+msgid "You must have at least one undroppable <%- types %> assignment."
+msgstr ""
 
 #: cms/static/js/models/settings/course_grading_policy.js
 msgid "Grace period must be specified in HH:MM format."
@@ -6987,7 +7011,7 @@ msgstr "هر زمان تغییرات را ذخیره کنید, اعمال خوا
 
 #: cms/static/js/views/validation.js
 msgid "You've made some changes, but there are some errors"
-msgstr "تغییراتی ایجاد کردید، اما خطاهایی وجود دارد"
+msgstr "شما تغییراتی ایجاد کردید، اما خطاهایی وجود دارد"
 
 #: cms/static/js/views/validation.js
 msgid ""
@@ -10155,11 +10179,11 @@ msgstr "آزمون پیش‌پردازش"
 
 #: cms/templates/js/course-outline.underscore
 msgid "Practice proctored Exam"
-msgstr "آزمون آزمایشی را تمرین کنید"
+msgstr "تمرین آزمون حفاظت‌شده"
 
 #: cms/templates/js/course-outline.underscore
 msgid "Proctored Exam"
-msgstr "آزمون آزمایشی"
+msgstr "آزمون حفاظت‌شده"
 
 #: cms/templates/js/course-outline.underscore
 msgid "Timed Exam"
@@ -10174,6 +10198,10 @@ msgstr "گسترش/بستن این %(xblock_type)s"
 #: cms/templates/js/course-outline.underscore
 msgid "Display Name"
 msgstr "نمایش نام"
+
+#: cms/templates/js/course-outline.underscore
+msgid "Discussions enabled"
+msgstr ""
 
 #: cms/templates/js/course-outline.underscore
 msgid "Proctoring Settings"
@@ -10405,6 +10433,14 @@ msgstr "ارسال "
 #: cms/templates/js/discussion-editor.underscore
 msgid "Enable discussion"
 msgstr "فعالسازی گفتگو"
+
+#: cms/templates/js/discussion-editor.underscore
+msgid "Topics for unpublished units would not be created"
+msgstr ""
+
+#: cms/templates/js/discussion-editor.underscore
+msgid "Please enable discussions for graded units from course authoring app"
+msgstr ""
 
 #: cms/templates/js/due-date-editor.underscore
 msgid "Due Date:"
@@ -11057,10 +11093,10 @@ msgid ""
 "reverted back to a basic or timed exam. You may not configure it as a "
 "proctored exam now. Contact edX Support for assistance."
 msgstr ""
-"این بخش فرعی به عنوان آزمونی آزمایشی برای یادگیرندگان منتشر شد، اما به شکل "
-"آزمون پایه یا زمان‌بندی شده برگردانده شد. اکنون دیگر امکان پیکربندی آن به "
-"شکل آزمون آزمایشی وجود ندارد. برای دریافت راهنمایی با پشتیبانی edX تماس "
-"بگیرید."
+"این بخش فرعی به عنوان آزمون حفاظت‌شده برای یادگیرندگان منتشر شد، اما به شکل "
+"آزمون پایه یا زمان‌بندی شده برگردانده شد. اکنون دیگر امکان پیکربندی آن "
+"به‌شکل آزمون حفاظت‌شده وجود ندارد. برای دریافت راهنمایی با پشتیبانی edX تماس"
+" بگیرید."
 
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid ""
@@ -11069,11 +11105,11 @@ msgid ""
 "a basic exam by selecting 'None', or a timed exam, but you will NOT be able "
 "to configure it as a proctored exam in the future."
 msgstr ""
-"این بخش فرعی به‌عنوان آزمونی آزمایشی برای یادگیرندگان منتشر شده‌است، امکان "
-"تغییر نوع آزمون ویژه وجود ندارد. اکنون دیگر امکان پیکربندی آن به شکل آزمون "
-"آزمایشی وجود ندارد. شما می‌توانید این بخش فرعی را با انتخاب گزینه \"هیچ "
+"این بخش فرعی به‌عنوان آزمونی حفاظت‌شده برای یادگیرندگان منتشر شده‌است، امکان"
+" تغییر نوع آزمون ویژه وجود ندارد. اکنون دیگر امکان پیکربندی آن به‌شکل آزمون "
+"حفاظت‌شده وجود ندارد. شما می‌توانید این بخش فرعی را با انتخاب گزینه \"هیچ "
 "کدام\" به حالت آزمون پایه یا آزمون زمان‌بندی‌شده تبدیل کنید اما در آینده نیز"
-" امکان تغییر پیکربندی آن به آزمون آزمایشی را نخواهید داشت."
+" امکان تغییر پیکربندی آن به آزمون حفاظت‌شده را نخواهید داشت."
 
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid "Timed"
@@ -11102,11 +11138,11 @@ msgid ""
 "examination rules. Please note that setting this exam as proctored will "
 "change the visibility settings to \"Hide content after due date.\""
 msgstr ""
-"آزمون‌های آزمایشی زمان‌بندی شده‌اند و از هر یادگیرنده در حین آزمون فیلمی "
+"آزمون‌های حفاظت‌شده زمان‌بندی شده‌اند و از هر یادگیرنده در حین آزمون فیلمی "
 "تهیه می‌کنند. سپس فیلم‌ها بررسی شده تا اطمینان حاصل شود که آن‌ها تمام قوانین"
 " آزمون را رعایت می‌کنند. لطفاً توجه کنید که با تنظیم این آزمون به‌عنوان "
-"آزمایشی، باعث خواهد شد که تنظیمات قابلیت مشاهده به  حالت «پنهان‌سازی محتوا "
-"پس از موعد مقرر» تغییر می‌کند."
+"حفاظت‌شده، باعث خواهد شد که تنظیمات قابلیت مشاهده به  حالت «پنهان‌سازی محتوا"
+" پس از موعد مقرر» تغییر می‌کند."
 
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid "Onboarding"
@@ -11119,10 +11155,10 @@ msgid ""
 "profile step prior to taking a proctored exam. Profile reviews take 2+ "
 "business days."
 msgstr ""
-"از Onboarding برای معرفی افراد به آزمون آزمایشی، تأیید هویت آن‌ها و ایجاد  "
-"پروندۀ Onboarding استفاده کنید. لازم است ایشان پیش از شرکت در آزمون آزمایشی "
-"این مرحلۀ مربوط به پرونده کاربری را طی کنند. بررسی پرونده‌ها به بیش از 2 روز"
-" کاری زمان نیاز دارد."
+"از Onboarding برای معرفی افراد به آزمون حفاظت‌شده، تأیید هویت آن‌ها و ایجاد"
+"  پروندۀ Onboarding استفاده کنید. لازم است ایشان پیش از شرکت در آزمون "
+"حفاظت‌شده این مرحلۀ مربوط به پرونده کاربری را طی کنند. بررسی پرونده‌ها به "
+"بیش از 2 روز کاری زمان نیاز دارد."
 
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid "Practice Proctored"
@@ -11133,7 +11169,7 @@ msgid ""
 "Use a practice proctored exam to introduce learners to the proctoring tools "
 "and processes. Results of a practice exam do not affect a learner's grade."
 msgstr ""
-"از یک آزمون آزمایشی تمرینی استفاده کنید تا یادگیرندگان را با ابزارها و "
+"از یک آزمون حفاظت‌شده تمرینی استفاده کنید تا یادگیرندگان را با ابزارها و "
 "فرایندهای آزمون آشنا کنید. نتایج این آزمون تمرینی، اثری در نمرۀ فرد نخواهد "
 "داشت."
 
@@ -11163,13 +11199,13 @@ msgid ""
 "before the learners start the exam, along with the {linkStart}general "
 "proctored exam rules{linkEnd}."
 msgstr ""
-"هر قانون یا استثنای قانونی را تعیین کنید که تیم حفاظت هنگام بررسی ویدئوها آن‌ موارد را اعمال کنند. به‌عنوان نمونه، می‌توانید استفاده از ماشین حساب را مجاز اعلام کنید. این قوانین تعیین‌شده پیش از شروع آزمون در کنار {linkStart} قوانین عمومی آزمون آزمایشی{linkEnd} توسط یادگیرندگان قابل مشاهده است.\n"
+"هر قانون یا استثنای قانونی را تعیین کنید که تیم حفاظت هنگام بررسی ویدئوها آن‌ موارد را اعمال کنند. به‌عنوان نمونه، می‌توانید استفاده از ماشین حساب را مجاز اعلام کنید. این قوانین تعیین‌شده پیش از شروع آزمون در کنار {linkStart} قوانین عمومی آزمون حفاظت‌شده {linkEnd} توسط یادگیرندگان قابل مشاهده است.\n"
 "\n"
 " "
 
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid "General Proctored Exam Rules"
-msgstr "قواعد عمومی آزمون آزمایشی"
+msgstr "قواعد عمومی آزمون حفاظت‌شده"
 
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid ""
