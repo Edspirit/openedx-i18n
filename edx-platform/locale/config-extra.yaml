@@ -11,6 +11,13 @@ locales:
     - hr  # Croatian
     - ro  # Romanian
     - sv  # Swedish
+    - ar  # Arabic
+    - fa_IR  # Persian
+    - de_DE  # German
+    - it_IT  # Italian
+    - tr_TR  # Turkish
+    - es_419  # Spanish (Latin America)
+    - pt_PT  # Portuguese
 
 # Copied from edx-platform/conf/locale/config.yaml
 generate_merge:
