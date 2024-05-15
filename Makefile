@@ -9,6 +9,7 @@ DOCKER_RUN=docker run --rm -it \
 DOCKER_RUN_TRANSIFEX=docker run --rm -it \
 	-v $(PWD)/edx-platform/locale/:/openedx/edx-platform/conf/locale/ \
 	-v $(PWD)/transifexrc:/openedx/.transifexrc \
+	-v $(PWD)/docker/custom-transifexrc:/openedx/edx-platform/.tx/config \
 	openedx-i18n
 
 all: build download validate compile ## Download and compile translations from transifex
